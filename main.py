@@ -27,7 +27,6 @@ class Game:
 			print("*" * 30)
 			print(f"Game {game_number} of {games_to_play}")
 			player_hand.display()
-			dealer_hand.display()
 
 			if self.check_winner(player_hand, dealer_hand):
 				continue
