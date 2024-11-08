@@ -74,7 +74,7 @@ class Game:
 				print("You have blackjack! You win!")
 				return False
 			elif dealer_hand.is_blackjack():
-				print("Dealer has blackjach! Dealer wins!")
+				print("Dealer has blackjack! Dealer wins!")
 				return False
 		else:
 			if player_hand.value > dealer_hand.value:
